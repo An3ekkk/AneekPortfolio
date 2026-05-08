@@ -13,7 +13,6 @@ const Footer = () => {
     <footer className="bg-gradient-to-br from-gray-900 via-black to-gray-900 border-t border-gray-800">
       <div className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-center">
-          {/* Logo/Name */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -22,12 +21,11 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
-              Aneek Kumar
+              Aneek Dubey
             </h3>
-            <p className="text-gray-400 mt-2">Full Stack Developer</p>
+            <p className="text-gray-400 mt-2">3rd Year Student | Web Development Learner</p>
           </motion.div>
 
-          {/* Social Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +56,6 @@ const Footer = () => {
             </motion.a>
           </motion.div>
 
-          {/* Back to top */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -77,7 +74,6 @@ const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Bottom section */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -86,7 +82,7 @@ const Footer = () => {
           className="border-t border-gray-800 mt-8 pt-8 text-center"
         >
           <p className="text-gray-400">
-            © {currentYear} Aneek Kumar. All rights reserved.
+            © {currentYear} Aneek Dubey. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Built with React, Tailwind CSS, and Framer Motion

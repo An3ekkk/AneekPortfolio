@@ -41,13 +41,13 @@ const Hero = () => {
               I'm a{' '}
               <TypeAnimation
                 sequence={[
-                  'Coder',
+                  '3rd Year Student',
                   2000,
-                  'React Developer',
+                  'Web Development Learner',
                   2000,
-                  'Web Designer',
+                  'React Beginner',
                   2000,
-                  'Problem Solver',
+                  'Curious Coder',
                   2000,
                 ]}
                 wrapper="span"
@@ -63,8 +63,8 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg text-gray-400 mb-8 max-w-lg"
             >
-              Passionate full-stack developer creating innovative digital solutions
-              with modern technologies and clean, efficient code.
+              I am a 3rd-year student from Midnapore, West Bengal, India, learning web
+              development step by step through practice, projects, and curiosity.
             </motion.p>
 
             <motion.div

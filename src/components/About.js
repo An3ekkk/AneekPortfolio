@@ -4,9 +4,9 @@ import { FaCode, FaProjectDiagram, FaAward } from 'react-icons/fa';
 
 const About = () => {
   const stats = [
-    { icon: FaCode, value: '50+', label: 'Projects Completed' },
-    { icon: FaProjectDiagram, value: '3+', label: 'Years Experience' },
-    { icon: FaAward, value: '10+', label: 'Certifications' }
+    { icon: FaCode, value: '5+', label: 'Practice Projects' },
+    { icon: FaProjectDiagram, value: '3rd', label: 'Year Student' },
+    { icon: FaAward, value: '0', label: 'Work Experience' }
   ];
 
   return (
@@ -23,12 +23,11 @@ const About = () => {
             About Me
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Get to know more about my journey, skills, and passion for creating amazing digital experiences.
+            Get to know more about my learning journey, basic skills, and interest in web development.
           </p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -36,35 +35,32 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold text-white mb-4">Passionate Developer & Problem Solver</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Student Developer With A Learning Mindset</h3>
             <p className="text-gray-300 leading-relaxed">
-              I'm a dedicated full-stack developer with over 3 years of experience creating
-              innovative web applications. My journey began with a curiosity for technology
-              and has evolved into a passion for crafting elegant solutions to complex problems.
+              I am currently in my 3rd year and learning web development from the basics.
+              I do not have professional work experience yet, but I am serious about improving
+              my fundamentals and building small projects that help me understand real concepts.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I specialize in modern JavaScript frameworks, particularly React, and enjoy
-              working with cutting-edge technologies to build scalable, user-friendly applications.
-              When I'm not coding, you can find me exploring new technologies or contributing
-              to open-source projects.
+              My focus right now is HTML, CSS, JavaScript, React basics, and learning how to
+              write cleaner code. I am from Midnapore, West Bengal, India, and I am working
+              toward becoming a confident developer through consistency and practice.
             </p>
 
-            {/* Education */}
             <div className="mt-8">
               <h4 className="text-xl font-semibold text-cyan-400 mb-4">Education</h4>
               <div className="space-y-4">
                 <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700">
-                  <h5 className="text-white font-medium">Bachelor of Computer Science</h5>
-                  <p className="text-gray-400">University of Technology • 2018 - 2022</p>
+                  <h5 className="text-white font-medium">Bachelor's Degree Student</h5>
+                  <p className="text-gray-400">Currently in 3rd Year</p>
                   <p className="text-gray-300 text-sm mt-2">
-                    Graduated with honors, specializing in web development and software engineering.
+                    Learning programming fundamentals, web development, and project building.
                   </p>
                 </div>
               </div>
             </div>
           </motion.div>
 
-          {/* Right content - Stats */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}

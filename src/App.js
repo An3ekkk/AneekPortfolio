@@ -24,10 +24,10 @@ function App() {
   return (
     <ThemeProvider>
       <Helmet>
-        <title>Aneek Kumar - Full Stack Developer</title>
-        <meta name="description" content="Portfolio of Aneek Kumar, a passionate full-stack developer specializing in React, Node.js, and modern web technologies." />
-        <meta name="keywords" content="React Developer, Full Stack Developer, Web Developer, JavaScript, Portfolio" />
-        <meta name="author" content="Aneek Kumar" />
+        <title>Aneek Dubey - Student Web Developer</title>
+        <meta name="description" content="Portfolio of Aneek Dubey, a 3rd-year student from Midnapore, West Bengal, learning web development through practice projects." />
+        <meta name="keywords" content="Student Developer, Web Developer, React Beginner, JavaScript, Portfolio" />
+        <meta name="author" content="Aneek Dubey" />
         <link rel="canonical" href="https://aneek-portfolio.com" />
       </Helmet>
 

@@ -44,7 +44,7 @@ const Journey = () => {
             My Journey
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A timeline of my professional journey, education, and key milestones in my development career.
+            A simple timeline of my student journey and web development learning progress.
           </p>
         </motion.div>
 

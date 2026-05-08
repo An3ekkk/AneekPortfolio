@@ -52,13 +52,13 @@ const Contact = () => {
     {
       icon: FaPhone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: 'Available on request',
+      link: '#'
     },
     {
       icon: FaMapMarkerAlt,
       title: 'Location',
-      value: 'New York, NY',
+      value: 'Midnapore, West Bengal, India',
       link: '#'
     }
   ];
@@ -77,7 +77,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+            I am open to learning, collaboration, and beginner-friendly opportunities.
           </p>
         </motion.div>
 
@@ -93,8 +93,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                I'm always interested in new opportunities and exciting projects.
-                Whether you have a question or just want to say hi, feel free to reach out!
+                I am still learning, but I am interested in practice projects, guidance,
+                internships, and opportunities where I can grow as a student developer.
               </p>
             </div>
 

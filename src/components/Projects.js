@@ -6,7 +6,7 @@ import { projects } from '../data/projects';
 const Projects = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'Frontend', 'Full Stack', 'Backend'];
+  const categories = ['All', 'Frontend'];
 
   const filteredProjects = filter === 'All'
     ? projects
@@ -26,7 +26,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A showcase of my recent work, featuring modern web applications and innovative solutions.
+            Small beginner projects I am building while learning frontend development.
           </p>
         </motion.div>
 
