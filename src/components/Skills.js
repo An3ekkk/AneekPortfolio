@@ -6,11 +6,11 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState('frontend');
 
   const categories = [
-    { id: 'frontend', label: 'Frontend', icon: '💻' },
-    { id: 'backend', label: 'Backend', icon: '⚙️' },
-    { id: 'database', label: 'Database', icon: '🗄️' },
-    { id: 'languages', label: 'Languages', icon: '💬' },
-    { id: 'tools', label: 'Tools', icon: '🛠️' }
+    { id: 'frontend', label: 'Frontend', icon: 'UI' },
+    { id: 'backend', label: 'Backend', icon: 'BE' },
+    { id: 'database', label: 'Database', icon: 'DB' },
+    { id: 'languages', label: 'Languages', icon: '{}' },
+    { id: 'tools', label: 'Tools', icon: '//' }
   ];
 
   return (
@@ -24,14 +24,13 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
-            Skills & Expertise
+            Skills I Am Learning
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A comprehensive overview of my technical skills and proficiency levels across different domains.
+            Basic technologies I am currently learning as a student while building small practice projects.
           </p>
         </motion.div>
 
-        {/* Category tabs */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +56,6 @@ const Skills = () => {
           ))}
         </motion.div>
 
-        {/* Skills grid */}
         <motion.div
           key={activeCategory}
           initial={{ opacity: 0, y: 20 }}
@@ -76,10 +74,9 @@ const Skills = () => {
             >
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
-                <span className="text-cyan-400 font-bold">{skill.level}%</span>
+                <span className="text-cyan-400 font-bold">Learning</span>
               </div>
 
-              {/* Progress bar */}
               <div className="w-full bg-gray-700 rounded-full h-2">
                 <motion.div
                   initial={{ width: 0 }}

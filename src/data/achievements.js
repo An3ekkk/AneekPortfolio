@@ -2,44 +2,44 @@
 export const achievements = [
   {
     id: 1,
-    title: "AWS Certified Developer",
-    description: "Certified in AWS development tools and services",
-    icon: "🏆",
-    date: "2023"
+    title: "Started Web Development",
+    description: "Learning HTML, CSS, JavaScript, and React step by step.",
+    icon: "*",
+    date: "Student"
   },
   {
     id: 2,
-    title: "React Expert",
-    description: "Completed advanced React certification",
-    icon: "⚛️",
-    date: "2023"
+    title: "Built Practice Projects",
+    description: "Created small projects to understand layouts, components, and basic interactivity.",
+    icon: "<>",
+    date: "Learning"
   },
   {
     id: 3,
-    title: "Open Source Contributor",
-    description: "Contributed to 10+ open source projects",
-    icon: "🌟",
-    date: "2022"
+    title: "Improving Problem Solving",
+    description: "Practicing beginner coding problems and improving logic slowly.",
+    icon: "{}",
+    date: "Ongoing"
   },
   {
     id: 4,
-    title: "Hackathon Winner",
-    description: "1st place in national coding competition",
-    icon: "🥇",
-    date: "2022"
+    title: "Learning GitHub",
+    description: "Understanding basic Git and GitHub workflows for storing projects.",
+    icon: "#",
+    date: "Basics"
   },
   {
     id: 5,
-    title: "100+ Projects Completed",
-    description: "Successfully delivered over 100 client projects",
-    icon: "📊",
-    date: "2023"
+    title: "Personal Portfolio",
+    description: "Working on this portfolio to present my learning journey and small projects.",
+    icon: "[]",
+    date: "Current"
   },
   {
     id: 6,
-    title: "Tech Speaker",
-    description: "Spoke at 5+ tech conferences and meetups",
-    icon: "🎤",
-    date: "2023"
+    title: "Consistent Learning",
+    description: "Focused on building fundamentals and becoming better with regular practice.",
+    icon: "+",
+    date: "Daily"
   }
 ];

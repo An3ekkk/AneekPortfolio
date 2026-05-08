@@ -1,63 +1,62 @@
-// Sample projects data
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce website with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-    image: "/assets/project1.jpg", // Placeholder image
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/username/ecommerce",
-    live: "https://ecommerce-demo.com",
-    category: "Full Stack"
+    title: "Simple E-Commerce UI",
+    description: "A basic front-end e-commerce website built using React. It displays products and includes add-to-cart functionality (UI only).",
+    image: "/assets/project1.jpg",
+    technologies: ["React", "CSS"],
+    github: "https://github.com/username/ecommerce-ui",
+    live: "",
+    category: "Frontend"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+    title: "To-Do List App",
+    description: "A simple task manager where users can add, delete, and mark tasks as completed.",
     image: "/assets/project2.jpg",
-    technologies: ["React", "Firebase", "Material-UI"],
-    github: "https://github.com/username/taskapp",
-    live: "https://taskapp-demo.com",
+    technologies: ["React", "JavaScript"],
+    github: "https://github.com/username/todo-app",
+    live: "",
     category: "Frontend"
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard with location-based forecasts, interactive maps, and weather alerts.",
+    title: "Weather App",
+    description: "A basic weather app that fetches data from an API and shows temperature and conditions.",
     image: "/assets/project3.jpg",
-    technologies: ["React", "OpenWeather API", "Chart.js"],
-    github: "https://github.com/username/weather",
-    live: "https://weather-demo.com",
+    technologies: ["React", "API"],
+    github: "https://github.com/username/weather-app",
+    live: "",
     category: "Frontend"
   },
   {
     id: 4,
-    title: "Blog CMS",
-    description: "A content management system for blogs with rich text editor, SEO optimization, and multi-user support.",
+    title: "Blog Website",
+    description: "A simple blog layout with multiple pages like Home, About, and Posts using React routing.",
     image: "/assets/project4.jpg",
-    technologies: ["React", "Express", "PostgreSQL", "CKEditor"],
-    github: "https://github.com/username/blogcms",
-    live: "https://blogcms-demo.com",
-    category: "Full Stack"
+    technologies: ["React", "React Router"],
+    github: "https://github.com/username/blog-site",
+    live: "",
+    category: "Frontend"
   },
   {
     id: 5,
     title: "Portfolio Website",
-    description: "A modern portfolio website with animations, dark mode, and responsive design.",
+    description: "My personal portfolio website showcasing my skills and projects.",
     image: "/assets/project5.jpg",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", "CSS"],
     github: "https://github.com/username/portfolio",
-    live: "https://portfolio-demo.com",
+    live: "",
     category: "Frontend"
   },
   {
     id: 6,
-    title: "Chat Application",
-    description: "Real-time chat application with private messaging, group chats, and file sharing capabilities.",
+    title: "Basic Chat UI",
+    description: "A simple chat interface design showing message layout (no backend functionality).",
     image: "/assets/project6.jpg",
-    technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
-    github: "https://github.com/username/chatapp",
-    live: "https://chatapp-demo.com",
-    category: "Full Stack"
+    technologies: ["React", "CSS"],
+    github: "https://github.com/username/chat-ui",
+    live: "",
+    category: "Frontend"
   }
 ];
