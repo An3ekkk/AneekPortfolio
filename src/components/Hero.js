@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload, FaEye } from 'react-icons/fa';
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 const Hero = () => {
-  const [profileImageLoaded, setProfileImageLoaded] = useState(true);
-  const profileImage = `${process.env.PUBLIC_URL}/profile.jpg`;
+  const dpImage = `${process.env.PUBLIC_URL}/image.jpg`;
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
@@ -137,20 +136,11 @@ const Hero = () => {
               {/* Glowing border */}
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-full blur-xl opacity-75 animate-pulse"></div>
 
-              {/* Put your photo at public/profile.jpg to show it here */}
+              {/* Profile image */}
               <div className="relative w-80 h-80 bg-gradient-to-br from-gray-700 to-gray-900 rounded-full border-4 border-cyan-400/50 overflow-hidden flex items-center justify-center">
-                {profileImageLoaded ? (
-                  <img
-                    src={profileImage}
-                    alt="Aneek Dubey"
-                    className="h-full w-full object-cover"
-                    onError={() => setProfileImageLoaded(false)}
-                  />
-                ) : (
-                  <div className="w-72 h-72 bg-gradient-to-br from-cyan-400/20 to-purple-600/20 rounded-full flex items-center justify-center">
-                    <span className="text-7xl font-bold text-cyan-300">AD</span>
-                  </div>
-                )}
+                <span className="dp-image">
+                  <img src={dpImage} alt="Aneek Dubey" />
+                </span>
               </div>
 
               {/* Floating tech labels */}
